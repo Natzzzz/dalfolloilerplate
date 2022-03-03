@@ -22,6 +22,10 @@ app.get('/detail/:id', (req, res) => {
   res.render('pages/detail')
 })
 
+app.get('/contact', (req, res) => {
+  res.render('pages/contact')
+})
+
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`)
 })
